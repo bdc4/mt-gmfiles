@@ -1,0 +1,14 @@
+uiFont = f_menu;
+uiTextColor = $05DF37;
+uiTextValue = "New Game";
+//uiButtonSprite = spr_newGameBtn;
+uiSetWidth = 200;
+//uiSetHeight = sprite_get_height(uiButtonSprite);
+//uiSpriteScale = 10;
+uiDrawBackColor = false;
+uiBackColor = c_black;
+uiEventObject = obj_gameMenu;
+uiControlName = "newgame";
+uiMoveX = room_width/8;
+uiAniMove = true;
+uiHoverColor = c_white;

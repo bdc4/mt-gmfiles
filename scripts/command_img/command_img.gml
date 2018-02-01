@@ -1,0 +1,1 @@
+char_img = int64(argument[0]);

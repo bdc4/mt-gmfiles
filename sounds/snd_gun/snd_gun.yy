@@ -1,0 +1,14 @@
+{
+    "id": "a9131e97-443f-4d0e-849f-93e3666de93a",
+    "modelName": "GMSound",
+    "mvc": "1.0",
+    "name": "snd_gun",
+    "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
+    "bitDepth": 1,
+    "bitRate": 128,
+    "kind": 0,
+    "preload": true,
+    "sampleRate": 44100,
+    "type": 0,
+    "volume": 1
+}

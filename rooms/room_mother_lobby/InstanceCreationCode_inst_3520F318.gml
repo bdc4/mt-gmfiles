@@ -1,0 +1,1 @@
+Doormat = Types[? "store"];
