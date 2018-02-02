@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-pause = C.showMenu;
-if !pause {t += 1*factor};
+
+if !PAUSED {t += 1*factor};
 if t >= 60*12 {
 	
 	var day = int64(META[? "day"]);

@@ -14,3 +14,7 @@ drawQuitButton = true;
 depth = -1000;
 height = room_height+240;
 width = room_width;
+
+globalvar PAUSED;
+
+PAUSED = true;

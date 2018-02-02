@@ -351,6 +351,14 @@
             }
         },
         {
+            "Key": "1e2f6d7f-5ccb-4bd4-87a4-3ec5426eb8e0",
+            "Value": {
+                "id": "80a94a66-a702-4838-af0f-b75a66ebc7a8",
+                "resourcePath": "objects\\obj_pauseBtn\\obj_pauseBtn.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1e76ffe5-d4eb-4ab3-8a6e-cc35fb6e19da",
             "Value": {
                 "id": "cbc0cfa6-08ac-4923-98f7-724f441d91ae",
