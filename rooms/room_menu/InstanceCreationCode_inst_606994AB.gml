@@ -1,5 +1,11 @@
 uiFont = f_menu;
-uiTextColor = $05DF37;
+if file_exists("savedata.ini") {
+	uiTextColor = $05DF37;
+	uiControlName = "loadgame";
+} else {
+	uiTextColor = $4D4D4D;
+	uiControlName = "noloaddata";
+}
 uiTextValue = "Continue";
 //uiButtonSprite = spr_newGameBtn;
 uiSetWidth = 200;
@@ -8,7 +14,6 @@ uiSetWidth = 200;
 uiDrawBackColor = false;
 uiBackColor = c_black;
 uiEventObject = obj_gameMenu;
-uiControlName = "loadgame";
 uiMoveX = room_width/8;
 uiAniMove = true;
 uiHoverColor = c_white;

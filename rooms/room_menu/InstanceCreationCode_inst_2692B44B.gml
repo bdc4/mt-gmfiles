@@ -1,0 +1,10 @@
+uiFont = f_menu;
+uiTextColor = $05DF37;
+uiTextValue = "Main Menu";
+uiDrawBackColor = false;
+uiBackColor = c_black;
+uiEventObject = obj_gameMenu;
+uiControlName = "mainmenu";
+uiMoveX = room_width/8;
+uiAniMove = true;
+uiHoverColor = c_white;

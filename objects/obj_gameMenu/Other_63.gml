@@ -7,9 +7,7 @@ if i_d == msg
    if ds_map_find_value(async_load, "status")
       {
 		start_new_game();
-		
       } else {
-		if variable_instance_exists(id, "ldBtn")
-			ldBtn.x = xstart;
+		//TODO - Show continue button
 	  }
    }

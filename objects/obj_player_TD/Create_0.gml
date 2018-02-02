@@ -8,4 +8,7 @@ _posY = META[? "TD_posY"];
 if _posX != "None" && _posY != "None" {
 	x = int64(_posX); 
 	y = int64(_posY);	
+} else {
+	x = xstart;
+	y = ystart;
 }

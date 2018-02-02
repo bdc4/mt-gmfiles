@@ -1,0 +1,15 @@
+!!! Font fnt_options uses a font (Blow) not installed on this system - Font has NOT been regenerated
+!!! Font fnt_title uses a font (Blow) not installed on this system - Font has NOT been regenerated
+Converting GML script: ${project_dir}\objects\obj_main_menu\Create_0.gml
+Converted description /// @description MODIFY THE MENU HERE
+
+Converting GML script: ${project_dir}\objects\obj_main_menu\Step_0.gml
+Converted description /// @description INPUTS, ETC.
+
+Converting GML script: ${project_dir}\objects\obj_main_menu\Draw_75.gml
+Converted description /// @description MODIFY VALUES IN "CREATE"
+
+Missing audiogroup for sound: 'sfx_error' - setting to default audio group
+Missing audiogroup for sound: 'sfx_select' - setting to default audio group
+Missing audiogroup for sound: 'sfx_switch' - setting to default audio group
+Updated compatibility script '__global_object_depths.gml'
