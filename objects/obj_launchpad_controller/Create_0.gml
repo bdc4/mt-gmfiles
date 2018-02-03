@@ -3,6 +3,7 @@
 if !instance_exists(obj_crewDisplay) {
 //	cd = instance_create_depth(0,0,depth,obj_crewDisplay);
 }
+C.showMenu = true;
 
 var rStr = "";
 var sStr = "";
@@ -49,8 +50,3 @@ for (var i = 0; i < ds_map_size(CREW); ++i) {
 	}
 }
 failStr =rStr+sStr+cStr;
-
-if clear {
-	if !instance_exists(obj_launchBtn)
-		instance_create_depth(room_width*12/18,room_height*2.5/4,depth,obj_launchBtn);	
-}

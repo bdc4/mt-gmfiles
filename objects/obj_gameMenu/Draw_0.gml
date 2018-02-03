@@ -11,7 +11,7 @@ if room == room_ship {
 	draw_text(room_width/2,room_height-32*4,"This concludes the demo!\nThanks for playing.\n\nPress ESC to open the menu.");	
 }
 */
-if room == room_launchpad {C.showMenu = true;}
+//if room == room_launchpad {}
 //Draw CREW
 if !instance_exists(obj_crewDisplay) and 
 ((room != room_cantina and room != room_menu) or room == room_launchpad or C.showMenu) {

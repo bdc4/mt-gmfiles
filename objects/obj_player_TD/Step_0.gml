@@ -39,7 +39,7 @@ for (var i=0; i<array_length_1d(keyVal); i++) {
 #endregion
 
 //Mouse Movement
-if mouse_check_button_pressed(mb_left) {
+if mouse_check_button_pressed(mb_left) and !C.showMenu {
 	
 	if instance_exists(obj_empty)
 		with (obj_empty) {instance_destroy();}
@@ -52,10 +52,8 @@ if mouse_check_button_pressed(mb_left) {
 }
 
 if instance_exists(obj_empty) {
-
-}
-
-if distance_to_object(obj_empty) <= 2 {
-	with (obj_empty) {instance_destroy()};
-	path_end();
+	if point_distance(x,y,obj_empty.x,obj_empty.y) <= 12 {
+		with (obj_empty) {instance_destroy()};
+		path_end();
+	}
 }
