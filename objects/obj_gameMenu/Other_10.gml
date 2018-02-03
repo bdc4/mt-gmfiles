@@ -28,6 +28,7 @@ if other.uiControlName == "mainmenu" {
 	} else {
 		META[? "room"] = room_get_name(room);	
 	}
+	C.showMenu = false;
 	save_data();
 	room_goto(room_menu);
 }

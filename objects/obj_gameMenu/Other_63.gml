@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+if !variable_instance_exists(id, "msg") exit;
+
 var i_d, stat;
 i_d = ds_map_find_value(async_load, "id");
 if i_d == msg

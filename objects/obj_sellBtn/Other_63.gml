@@ -13,6 +13,7 @@ if instance_exists(obj_shipyard_controller) && SHIP[? "name"] != "None" {
 					ITEMS[? "money"] = int64(ITEMS[? "money"]) + C.ShipPrices[i];
 					ITEMS[? "money"] = string(ITEMS[? "money"]);
 					SHIP[? "name"] = "None";
+					SHIP[? "spr"] = spr_shipEmpty;
 					instance_destroy();
 					room_restart();
 				}

@@ -18,3 +18,6 @@ if yy < 0 {
 	camera_set_view_pos(camera,xx,0);
 	fadeWhite = true;
 }
+
+if keyboard_check_pressed(vk_anykey) || mouse_check_button(mb_any)
+	fadeWhite = true;

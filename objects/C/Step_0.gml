@@ -1,8 +1,17 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if keyboard_check_pressed(vk_tab) and room != room_menu and room != room_launchpad
+if keyboard_check_pressed(vk_tab) and room != room_menu and room != room_launchpad {
 	showMenu = !showMenu;
+}
+	
+if !instance_exists(obj_mainMenuBtn) and showMenu and room != room_launchpad {
+	instance_create_depth(room_width-400,room_height-400,-1000000000,obj_mainMenuBtn);
+}
+
+if instance_exists(obj_mainMenuBtn) and (!showMenu or room == room_launchpad) {
+	instance_destroy(obj_mainMenuBtn);
+}
 
 if keyboard_check_pressed(vk_f9) {
 	room_restart();
