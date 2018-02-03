@@ -6,6 +6,7 @@ if other.uiControlName == "newgame" {
 
 	if file_exists("savedata.ini") {
 		//Hide continue button TODO
+		
 		msg = show_question_async(newGameStr);
 	} else {
 		start_new_game();

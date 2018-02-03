@@ -9,6 +9,11 @@
 //  ex:
 // uiFont=fnt_MenuDefault;
 
-uiAlignV = fa_center;
+uiFont = f_menu;
 uiHoverMode = 2;
 uiHoverInfo = 1.25;
+uiAlign = fa_left;
+uiAlignV = fa_top;
+
+x = 0;
+y = ystart;
