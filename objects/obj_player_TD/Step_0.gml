@@ -45,8 +45,17 @@ if mouse_check_button_pressed(mb_left) {
 		with (obj_empty) {instance_destroy();}
 		
 	var target = instance_create_depth(mouse_x,mouse_y,depth,obj_empty);
+	path = path_add();
+	mp_potential_path(path, obj_empty.x, obj_empty.y, 8, 4, false);
+	path_start(path, 8, 0, false);	
 	
 }
 
-if instance_exists(obj_empty)
-	move_towards_point(obj_empty.x,obj_empty.y,8);
+if instance_exists(obj_empty) {
+
+}
+
+if distance_to_object(obj_empty) <= 2 {
+	with (obj_empty) {instance_destroy()};
+	path_end();
+}
