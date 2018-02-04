@@ -10,6 +10,7 @@ draw_set_color(c_white);
 draw_rectangle(0,-room_height,room_width,room_height,false);
 if fadeWhite {
 	fadeAlpha += .02*multiplier;
+	aFade -= .04;
 }
 clamp(fadeAlpha,0,1);
 

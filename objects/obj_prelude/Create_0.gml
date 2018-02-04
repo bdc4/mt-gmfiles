@@ -7,5 +7,9 @@ fadeAlpha = 0;
 titleAlpha = 1;
 multiplier = 1;
 t = 4;
+aMax = -200;
+a = 0;
+
+aFade = 0;
 
 depth = -100000;
