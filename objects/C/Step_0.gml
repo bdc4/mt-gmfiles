@@ -5,12 +5,15 @@ if keyboard_check_pressed(vk_tab) and room != room_menu and room != room_launchp
 	showMenu = !showMenu;
 }
 	
-if !instance_exists(obj_mainMenuBtn) and showMenu and room != room_launchpad {
-	instance_create_depth(room_width-400,room_height-400,-1000000000,obj_mainMenuBtn);
+if showMenu and room != room_launchpad {
+	if !instance_exists(obj_mainMenuBtn) instance_create_depth(room_width-400,room_height-400,-1000000000,obj_mainMenuBtn);
+	if !instance_exists(obj_saveGameBtn) instance_create_depth(room_width-400,room_height-350,-1000000000,obj_saveGameBtn);
+
 }
 
-if instance_exists(obj_mainMenuBtn) and (!showMenu or room == room_launchpad) {
-	instance_destroy(obj_mainMenuBtn);
+if (!showMenu or room == room_launchpad) {
+	if instance_exists(obj_mainMenuBtn)	instance_destroy(obj_mainMenuBtn);
+	if instance_exists(obj_saveGameBtn)	instance_destroy(obj_saveGameBtn);
 }
 
 if keyboard_check_pressed(vk_f9) {

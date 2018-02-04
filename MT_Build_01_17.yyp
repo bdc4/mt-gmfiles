@@ -2503,6 +2503,14 @@
             }
         },
         {
+            "Key": "f505cc07-3846-4d5e-ab66-8fd453c9c671",
+            "Value": {
+                "id": "cb1a5345-11a3-4b7b-9ea2-f02d808cba3c",
+                "resourcePath": "objects\\obj_saveGameBtn\\obj_saveGameBtn.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f58224af-d75d-4832-af37-c8acb3ece3f1",
             "Value": {
                 "id": "2c6ae91e-c539-4c58-b59d-26913af2b95a",

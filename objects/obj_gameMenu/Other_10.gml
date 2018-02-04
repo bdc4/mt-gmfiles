@@ -32,3 +32,14 @@ if other.uiControlName == "mainmenu" {
 	save_data();
 	room_goto(room_menu);
 }
+
+if other.uiControlName == "savegame" {
+	if room == room_interior or room == room_cargo or room == room_cockpit {
+		META[? "room"] = "room_ship";
+	} else {
+		META[? "room"] = room_get_name(room);	
+	}
+	C.showMenu = false;
+	save_data();
+	update_textbox("Game Saved Successfully!");
+}
