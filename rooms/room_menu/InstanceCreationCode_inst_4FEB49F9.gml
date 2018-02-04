@@ -1,15 +1,9 @@
 uiFont = f_menu;
 uiTextColor = $05DF37;
 uiTextValue = "Quit";
-//uiButtonSprite = spr_newGameBtn;
-uiSetWidth = 200;
-//uiSetHeight = sprite_get_height(uiButtonSprite);
-//uiSpriteScale = 10;
-uiDrawBackColor = false;
-uiBackColor = c_black;
 uiEventObject = obj_gameMenu;
 uiControlName = "quitgame";
+x=0;
 uiMoveX = xstart;
 uiMoveY = ystart;
 uiAniMove = true;
-uiHoverColor = c_white;

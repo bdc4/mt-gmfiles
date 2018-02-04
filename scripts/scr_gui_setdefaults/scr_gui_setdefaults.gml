@@ -12,8 +12,11 @@
 uiFont = f_menu;
 uiHoverMode = 2;
 uiHoverInfo = 1.25;
-uiAlign = fa_left;
-uiAlignV = fa_top;
+uiAlign = fa_center;
+uiAlignV = fa_middle;
 
-x = 0;
+x = xstart;
 y = ystart;
+
+uiBackColor = c_black;
+uiBackColor2 = false;

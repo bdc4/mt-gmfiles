@@ -10,9 +10,9 @@ if PAUSED
 else
 	uiTextValue = "Pause";
 	
-uiDrawBackColor = false;
+uiDrawBackColor = true;
 uiBackColor = c_black;
+uiBackColor2 = false;
 uiEventObject = obj_ship_controller;
 uiControlName = "pausetoggle";
-uiAniMove = true;
 uiHoverColor = c_white;

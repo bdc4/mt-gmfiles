@@ -7,14 +7,8 @@ if file_exists("savedata.ini") {
 	uiControlName = "noloaddata";
 }
 uiTextValue = "Continue";
-//uiButtonSprite = spr_newGameBtn;
-uiSetWidth = 200;
-//uiSetHeight = sprite_get_height(uiButtonSprite);
-//uiSpriteScale = 10;
-uiDrawBackColor = false;
-uiBackColor = c_black;
 uiEventObject = obj_gameMenu;
+x=0;
 uiMoveX = xstart;
 uiMoveY = ystart;
 uiAniMove = true;
-uiHoverColor = c_white;

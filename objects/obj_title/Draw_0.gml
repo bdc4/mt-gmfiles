@@ -8,8 +8,8 @@ draw_sprite_general(spr_stars,irandom_range(0,7), 0, 0, sprite_get_width(spr_sta
 if room == room_menu  {
 	draw_set_color($05DF37);
 	draw_set_halign(fa_center);
-	draw_rectangle(room_width/2-120,room_height/4+font_get_size(f_menu)*2,room_width/2+120,room_height/4+32,false);
-	draw_text(room_width/2,room_height/4,"The Martian Trail");	
+	draw_rectangle(x-120, y+font_get_size(f_menu)*2,x+120,y+32,false);
+	draw_text(x, y, "The Martian Trail");	
 }
 
 
