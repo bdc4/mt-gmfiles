@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 var pString = "";
-if attn {pString = "[$="+string(c_orange)+"]"+" ALERT!";} else if PAUSED {pString = " PAUSED";} else {pString = fString};
+if attn {pString = "[$="+string(c_orange)+"]"+" ALERT!";} else if PAUSED {pString = "[$="+string(c_gray)+"]"+fString;} else {pString = fString};
 var dayStr = "Day: "+string(META[? "day"])+"     "+pString;
 
 draw_set_color(c_black);

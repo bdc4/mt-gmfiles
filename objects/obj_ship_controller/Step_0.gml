@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 if room == room_menu PAUSED = true;
-if !PAUSED {t += 1*factor};
+if !PAUSED and !attn {t += 1*factor};
 if t >= 60*12 {
 	
 	var day = int64(META[? "day"]);
