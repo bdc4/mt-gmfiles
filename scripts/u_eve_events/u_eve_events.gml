@@ -2,6 +2,7 @@
 
 var e = argument0; //e=3; //Set e to desired event value to debug
 
+img = spr_dreadnought;
 
 if e <= 1 {
 	
@@ -13,7 +14,7 @@ if e <= 1 {
 		if roll == 1 {
 		
 			var _sys = u_damage_random_system(1);
-		
+			title = "[c:orange]Space Debris[c:white]: ";
 			msg = "Debris from space has collided with the ship causing damage to the "
 			+_sys+" department, but we managed to salvage "+salvage+" from the debris.";
 		} else {
@@ -30,10 +31,10 @@ if e <= 1 {
 		var roll = irandom_range(1,6);
 		if roll == 1 {
 			var _sys = u_damage_random_system(1);
-			msg = "It's a trap! Your crew escaped unscathed, but your "+_sys+" department took some damage.";
+			msg = "[c:red]It's a trap![c:white] Your crew escaped unscathed, but your "+_sys+" department took some damage.";
 		} else if roll == 2 {
 			var _crew = u_damage_random_crew(1);
-			msg = "It's a trap! During the escape, "+_crew+" was hurt.";
+			msg = "[c:red]It's a trap![c:white] During the escape, "+_crew+" was hurt.";
 		} else {
 			var salv_1 = u_get_random_items();
 			var salv_2 = u_get_random_items();

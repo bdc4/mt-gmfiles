@@ -20,3 +20,5 @@ y = ystart;
 
 uiBackColor = c_black;
 uiBackColor2 = false;
+
+uiSetWidth = 200;

@@ -28,13 +28,13 @@ for( P=1; P<=string_length(argument[0]); P++ ) {
                 {
                     case "c":
                     case "color":
-                        ds_list_add( W,_ctb_create_tag( "color", gsTB_gsolors[? r] ) );
+                        ds_list_add( W,_ctb_create_tag( "color", CTB_Colors[? r] ) );
                         w = "";
                     break;
                     
                     case "f":
                     case "font":
-                        ds_list_add( W,_ctb_create_tag( "font", gsTB_Fonts[? r] ) );
+                        ds_list_add( W,_ctb_create_tag( "font", CTB_Fonts[? r] ) );
                         w = "";
                     break;
                     

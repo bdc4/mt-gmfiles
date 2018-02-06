@@ -8,4 +8,4 @@ var dmg = int64(dmgSystem[? "hp"]);
 dmg -= argument0;
 dmgSystem[? "hp"] = dmg;
 
-return string(dmgSystem[? "name"]);
+return "[c:red]"+string(dmgSystem[? "name"])+"[c:white]";

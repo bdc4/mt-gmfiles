@@ -19,6 +19,8 @@ ctb_add_color( "white", c_white );
 ctb_add_color( "blue", c_blue );
 ctb_add_color( "yellow", c_yellow );
 ctb_add_color( "red", c_red );
+ctb_add_color( "orange", c_orange );
+ctb_add_color( "lime", c_lime );
 
 // Add some fonts
 ctb_add_font( "default", f_normal );

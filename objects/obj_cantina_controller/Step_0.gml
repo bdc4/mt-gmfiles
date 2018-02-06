@@ -39,7 +39,7 @@ for (var i=0; i<array_length_1d(person); i++) {
 						
 						str =  "My name is "+p.name+". I'm "+aStr+p.affiliation+"-trained "+p.special+" from "+locale+". Nice to meet you."//string(FLAVORTEXT[? string_lower(obj_cantina_controller.personNames[i])+"_person"]);
 						var _portrait = sprite_get_name(p.spr);
-						_portrait = "[char:"+_portrait+"]"+"[img:"+string(p.image_index)+"]";
+						_portrait = "[img:"+string(p.image_index)+"]"+"[char:"+_portrait+"]";
 						ctb_add_text(_portrait+str);
 					}
 					

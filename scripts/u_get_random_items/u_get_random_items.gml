@@ -7,4 +7,4 @@ var salvageNum = irandom_range(2,4);
 	
 ITEMS[? salvageType] = (int64(ITEMS[? salvageType])+salvageNum);
 
-return string(salvageNum)+" "+string(salvageType);
+return "[c:lime]"+string(salvageNum)+" "+string(salvageType)+"[c:white]";

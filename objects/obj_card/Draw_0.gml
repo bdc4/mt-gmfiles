@@ -25,7 +25,7 @@ if instance_exists(obj_cantina_controller) && ID != "CREWCard" {
 		draw_text(x,y+32*6.25,perk);
 		draw_text(x,y+32*7.0,fault);
 		draw_set_font(f_normal);
-		draw_text_color(x,y-sprite_height,addStr,c_white,c_white,c_white,c_white,t);	
+		draw_text_color(x,y-sprite_height,addStr,c_white,c_white,c_white,c_white,selected);	
 	}
 }
 

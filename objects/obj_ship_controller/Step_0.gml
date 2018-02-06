@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if room = room_menu PAUSED = true;
+if room == room_menu PAUSED = true;
 if !PAUSED {t += 1*factor};
 if t >= 60*12 {
 	
@@ -11,10 +11,14 @@ if t >= 60*12 {
 	var num = irandom_range(1,18);
 	
 	title = "";
+	img = spr_empty;
 	msg = "Nothing to report today.";
 	
-	//Debugging below
-	//num = 15
+	//Debugging:
+	//Uncomment below line for no uneventful days
+	//num = irandom_range(8,18);
+	//Uncomment to set precise event
+	num = 15
 	
 	if num >= 8 and num <= 10 {
 		var eveNum = irandom_range(1,6);
@@ -31,6 +35,9 @@ if t >= 60*12 {
 			instance_destroy(obj_textbox)
 		
 		update_textbox(title+msg);
+		var ed = instance_create_depth(0,0,depth,obj_eventDisplay);
+		ed.img = img;
+		PAUSED = true;
 	}
 	t=0;
 }
