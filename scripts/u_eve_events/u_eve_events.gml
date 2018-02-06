@@ -94,6 +94,9 @@ if e <= 1 {
 
 	#region #5: Space Pirates TODO
 	
+	title = "ATTENTION";
+	attn = true;
+	PAUSED = true;
 	return;
 	
 	#endregion
@@ -102,12 +105,13 @@ if e <= 1 {
 
 	#region #6: Surveyor Encounter TODO
 	
-		return;
+	title = "ATTENTION";
+	attn = true;
+	PAUSED = true;
+	return;
 	
 	#endregion
 
 }
 
-else {
-	return;
-}
+return;

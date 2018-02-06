@@ -10,3 +10,12 @@ if PAUSED {
 	uiBackColor = c_maroon;
 	uiBackColor2 = c_maroon; 
 }
+
+if instance_exists(obj_ship_controller) {
+	if obj_ship_controller.attn {
+		uiTextColor = c_silver;
+		uiControlName = "";
+	} else {
+		uiControlName = "pausetoggle";	
+	}
+}

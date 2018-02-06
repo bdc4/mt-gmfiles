@@ -343,6 +343,14 @@
             }
         },
         {
+            "Key": "1df768dd-a0b6-4742-b1e0-6ca815e053c2",
+            "Value": {
+                "id": "a911af6c-e4fa-45bf-a879-0737d91de1ba",
+                "resourcePath": "scripts\\u_eve_pirates\\u_eve_pirates.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1e186fdf-8419-4045-baba-5634984dd262",
             "Value": {
                 "id": "4529fc23-20f5-4dc2-a88b-9f736920f01d",
@@ -1172,6 +1180,14 @@
                 "id": "5d479d37-2434-4705-96dc-f1748d749af4",
                 "resourcePath": "views\/6eff7291-7dfd-466d-a0bc-edf1f704df49.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6f349813-4f82-4b3c-b63a-78cfea5fa389",
+            "Value": {
+                "id": "4a4aa7c4-49bc-4d22-93c6-17991a3b798e",
+                "resourcePath": "objects\\obj_interactDisplay\\obj_interactDisplay.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2167,6 +2183,14 @@
             }
         },
         {
+            "Key": "ccb79597-5b1c-48f1-8aeb-b6d795b8178c",
+            "Value": {
+                "id": "1cc55b10-0e1b-4c81-8233-dd0e88b11dd8",
+                "resourcePath": "objects\\obj_attnBtn\\obj_attnBtn.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ce4cdab1-3023-49dc-9423-617f7e22d6f6",
             "Value": {
                 "id": "a47f3ad8-4b3a-4957-907e-aa8568cc7e3c",
@@ -2690,6 +2714,7 @@
         "eddacc35-cb69-4bfb-8aca-d0925d698beb",
         "84a6ebd6-3939-4b05-9ca7-9a83c1c76501",
         "d856081e-df57-4cce-8aa4-78a7f27f3544",
+        "1df768dd-a0b6-4742-b1e0-6ca815e053c2",
         "439cf326-c94c-4d72-a125-1f2e260e4128",
         "cc158a35-1cd1-41d8-8308-2573478fe2f6",
         "261d17df-db6f-43ea-9010-c82394980e67",

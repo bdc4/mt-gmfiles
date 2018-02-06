@@ -7,3 +7,5 @@ factor = .5;
 pause = false;
 fString = "00:00 AM";
 img = spr_empty;
+attn = false;
+attnEvent = 0;
