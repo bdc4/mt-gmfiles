@@ -11,8 +11,7 @@ else
 	uiTextValue = "Pause";
 	
 uiDrawBackColor = true;
-uiBackColor = c_black;
-uiBackColor2 = false;
 uiEventObject = obj_ship_controller;
 uiControlName = "pausetoggle";
-uiHoverColor = c_white;
+uiBackColor = c_blue;
+uiSetWidth = 200;

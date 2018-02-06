@@ -7,9 +7,10 @@ draw_set_color(c_white);
 draw_rectangle(16,4,room_width-16,room_height-16,true);
 var title = "";
 
-if room == room_launchpad title="CREW";
+if !PAUSED title="CREW";
 else title = "PAUSED";
 
+draw_set_valign(fa_top);
 draw_text(room_width/2, 4, title);
 draw_set_color(c_black);
 draw_rectangle(32,32,room_width-32,room_height*3/8+8,false);
@@ -36,7 +37,7 @@ draw_text(room_width/8, room_height/2+sprite_get_height(spr)*.75, "SHIP: "+strin
 
 
 //Draw ITEMS
-draw_set_halign(fa_left)
+draw_set_halign(fa_left);
 itemStr = "";
 for (var i = 0; i < array_length_1d(ITEMNAMES); ++i) {
 		
@@ -50,4 +51,5 @@ draw_rectangle(
 	room_height/2+sprite_get_height(spr)+32,
 	true
 );
+
 draw_text(room_width*1.1/8+128,room_height/2-sprite_get_height(spr)/2,"ITEMS:\n"+itemStr);

@@ -5,3 +5,4 @@ name = "None";
 t = 0;
 factor = .5;
 pause = false;
+fString = "00:00 AM";
