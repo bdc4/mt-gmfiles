@@ -25,6 +25,14 @@ if e <= 1 {
 	
 } else if e <= 2 {
 	
+	if attn != true {
+		title = "ATTENTION";
+		attn = true;
+		PAUSED = true;
+		eve = "Abandoned Ship";
+		return;
+	}
+	
 	#region #2: Abandoned Spacecraft
 	
 		title = "Abandoned Spacecraft: ";
@@ -95,6 +103,7 @@ if e <= 1 {
 	#region #5: Space Pirates TODO
 	
 	title = "ATTENTION";
+	eve = "Pirates";
 	attn = true;
 	PAUSED = true;
 	return;
@@ -106,6 +115,7 @@ if e <= 1 {
 	#region #6: Surveyor Encounter TODO
 	
 	title = "ATTENTION";
+	eve = "Pirates";
 	attn = true;
 	PAUSED = true;
 	return;

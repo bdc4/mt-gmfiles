@@ -22,6 +22,31 @@ if other.uiControlName == "talk" {
 	}
 }
 
-instance_destroy(attackBtn);
-instance_destroy(talkBtn);
+if other.uiControlName == "explore" {
+	with obj_ship_controller {
+		
+		u_eve_events(2);
+		
+		if instance_exists(obj_textbox)
+			instance_destroy(obj_textbox);
+		
+		update_textbox(title+msg);
+		var ed = instance_create_depth(0,0,depth,obj_eventDisplay);
+		ed.img = img;
+		PAUSED = true;
+		attn = false;
+	}
+}
+
+if other.uiControlName == "ignore" {
+	with obj_ship_controller {
+		update_textbox("You chose to ignore it and continue on...");
+		var ed = instance_create_depth(0,0,depth,obj_eventDisplay);
+		ed.img = img;
+		PAUSED = true;
+		attn = false;
+	}
+}
+
+with ui_button_ani {instance_destroy();}
 instance_destroy();

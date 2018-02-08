@@ -1487,6 +1487,14 @@
             }
         },
         {
+            "Key": "863f891c-40fb-409a-b368-7916038f6064",
+            "Value": {
+                "id": "0512e7f4-ac3c-4461-b85a-b17fecba7c7d",
+                "resourcePath": "scripts\\u_init_interact_btns\\u_init_interact_btns.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "86534383-37d4-4036-95bb-2453cbd3e5c0",
             "Value": {
                 "id": "ef608cdc-52c4-4ca9-ae4e-92ee93d53e77",
@@ -1803,6 +1811,14 @@
             "Value": {
                 "id": "92cf1af7-6ecb-4ea4-9ead-3774659cb9ea",
                 "resourcePath": "scripts\/ctb_update\/ctb_update.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a6a51ebc-745f-4607-9ddf-44a5169a1896",
+            "Value": {
+                "id": "2d61da17-331b-4b25-b74c-0e0a4f1be0ab",
+                "resourcePath": "scripts\\u_eve_abandoned_ship\\u_eve_abandoned_ship.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -2715,6 +2731,7 @@
         "84a6ebd6-3939-4b05-9ca7-9a83c1c76501",
         "d856081e-df57-4cce-8aa4-78a7f27f3544",
         "1df768dd-a0b6-4742-b1e0-6ca815e053c2",
+        "a6a51ebc-745f-4607-9ddf-44a5169a1896",
         "439cf326-c94c-4d72-a125-1f2e260e4128",
         "cc158a35-1cd1-41d8-8308-2573478fe2f6",
         "261d17df-db6f-43ea-9010-c82394980e67",
@@ -2756,7 +2773,8 @@
         "d15021a6-f4ae-46e8-bc9c-9d14b4c6a022",
         "af9a6ceb-cebb-4841-9e60-443f7417635c",
         "7fcb431b-dd04-4e42-977d-52b636fc4a68",
-        "ac0df619-c40f-4024-b7ea-37e8fa29fe31"
+        "ac0df619-c40f-4024-b7ea-37e8fa29fe31",
+        "863f891c-40fb-409a-b368-7916038f6064"
     ],
     "tutorial": ""
 }

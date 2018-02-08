@@ -22,12 +22,13 @@ if t >= 60*12 {
 	
 	if num >= 8 and num <= 10 {
 		var eveNum = irandom_range(1,5);
-		eveNum = 5;
+		//eveNum = 2; //For debugging
 		u_eve_events(eveNum);
 	}
 	
 	if num >= 14 and num <= 18 {
 		var eveNum = irandom_range(1,6);
+		//eveNum = 2; //For debugging
 		u_eve_minor_injury(eveNum);
 	}
 	

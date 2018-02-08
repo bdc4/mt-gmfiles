@@ -9,10 +9,18 @@ if other.uiControlName == "onscreen" {
 	if instance_exists(obj_textbox)
 		instance_destroy(obj_textbox);
 	
-	u_eve_pirates();
+	switch(eve) {
+		case "Pirates": 
+			u_eve_pirates(); 
+			break;
+		case "Abandoned Ship":
+			u_eve_abandoned_ship();
+			break;
+			
+	}
 	
 	update_textbox(title+msg);
-	var ed = instance_create_depth(0,0,depth,obj_interactDisplay);
-	ed.img = img;
 	PAUSED = true;
+	eve = false;
+	img = spr_empty;
 }
