@@ -5,6 +5,8 @@ draw_self();
 draw_set_color(c_white);
 draw_set_halign(fa_center);
 //if position_meeting(mouse_x, mouse_y, id) {
-draw_text(x,y+sprite_height/2+font_get_size(f_normal)*1-8,string(_system[? "name"]));
-draw_text(x,y+sprite_height/2+font_get_size(f_normal)*2,"Hull Points: "+string(_system[? "hp"]));
+draw_set_valign(fa_center);
+var str = string(_system[? "name"])+"\n"+"Hull Points: "+string(_system[? "hp"]);
+draw_text(x,y,str);
+draw_set_valign(fa_top);
 //}

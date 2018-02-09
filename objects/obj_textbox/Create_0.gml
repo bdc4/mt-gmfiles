@@ -41,7 +41,7 @@ ctb_add_command( "img", command_img );
 ctb_set_padding( sprite_get_width(spr_portraitNone)+32,10,10,10 );
 //ctb_cmd_speed(2);
 // Set the textbox"s background
-sprite_index = ctb_load_subimage(spr_textbox_slice9_subimages, room_width-128, sprite_get_height(spr_portraitNone)+28);
+sprite_index = ctb_load_subimage(spr_textbox_slice9_subimages, room_width-56, sprite_get_height(spr_portraitNone)+28);
 
 /* */
 /*  */

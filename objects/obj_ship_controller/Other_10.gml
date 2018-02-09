@@ -5,6 +5,11 @@ if other.uiControlName == "pausetoggle" {
 	PAUSED = !PAUSED;
 }
 
+if other.uiControlName == "gotohelm" {
+	if room != room_cockpit room_goto(room_cockpit);
+	if C.showMenu C.showMenu = false;	
+}
+
 if other.uiControlName == "onscreen" {
 	if instance_exists(obj_textbox)
 		instance_destroy(obj_textbox);

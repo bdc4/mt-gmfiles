@@ -11,3 +11,8 @@ draw_set_halign(fa_left);
 draw_set_color(c_lime);
 draw_rectangle(0,0,12+10*20,24+font_get_size(f_normal),true);
 draw_text_custom(12,6,dayStr,1);
+
+//if PAUSED {
+	if !instance_exists(obj_pauseBtn)
+		instance_create_depth(0,48,depth,obj_pauseBtn);
+//}

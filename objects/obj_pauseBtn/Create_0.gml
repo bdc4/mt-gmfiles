@@ -3,7 +3,6 @@
 event_inherited();
 
 uiFont = f_menu;
-uiTextColor = $05DF37;
 
 if PAUSED
 	uiTextValue = "Resume";
@@ -13,5 +12,6 @@ else
 uiDrawBackColor = true;
 uiEventObject = obj_ship_controller;
 uiControlName = "pausetoggle";
-uiBackColor = c_blue;
 uiSetWidth = 200;
+
+depth = -10000000;
