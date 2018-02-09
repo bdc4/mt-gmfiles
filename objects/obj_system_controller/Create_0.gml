@@ -2,7 +2,13 @@
 // You can write your code in this editor
 //Handle Textbox
 	
-var msg = "This is the "+string(obj_ship_controller.name)+" area."
+var msg = "This is the "+string(obj_ship_controller.name)+" area.";
+if obj_ship_controller.attn {
+	msg = "[c:lime]Alert[c:white]: Your attention is needed at the helm."
+	
+	if obj_ship_controller.name == "Cockpit"
+		msg = "[c:lime]You have an incoming message on your terminal.[c:white]";
+}
 update_textbox(msg);
 
 var n = 0;

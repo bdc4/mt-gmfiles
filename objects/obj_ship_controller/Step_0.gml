@@ -2,7 +2,8 @@
 // You can write your code in this editor
 if room == room_menu PAUSED = true;
 if !PAUSED and !attn {t += 1*factor};
-if t >= 60*12 {
+t = clamp(t,0,dayLength);
+if t >= dayLength {
 	
 	var day = int64(META[? "day"]);
 	day += 1;
@@ -10,8 +11,9 @@ if t >= 60*12 {
 	
 	var num = irandom_range(1,18);
 	
-	title = "";
+	
 	img = spr_empty;
+	title = "";
 	msg = "Nothing to report today.";
 	
 	//Debugging:
@@ -42,7 +44,7 @@ if t >= 60*12 {
 		PAUSED = true;
 	}
 	
-	if title == "ATTENTION" {
+	if attn {
 		if instance_exists(obj_textbox)
 			instance_destroy(obj_textbox);
 		

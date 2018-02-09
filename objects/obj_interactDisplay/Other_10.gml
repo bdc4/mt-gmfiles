@@ -48,5 +48,5 @@ if other.uiControlName == "ignore" {
 	}
 }
 
-with ui_button_ani {instance_destroy();}
+with ui_button_ani {if object_index != obj_attnBtn instance_destroy();}
 instance_destroy();

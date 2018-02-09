@@ -18,28 +18,22 @@ if other.uiControlName == "loadgame" {
 }
 
 if other.uiControlName == "quitgame" {
-	if file_exists("savedata.ini") save_data();
+	if file_exists("savedata.ini") save_data(false);
 	game_end();	
 }
 
 if other.uiControlName == "mainmenu" {
-	if room == room_interior or room == room_cargo or room == room_cockpit {
-		META[? "room"] = "room_ship";
-	} else {
-		META[? "room"] = room_get_name(room);	
-	}
+	
 	C.showMenu = false;
-	save_data();
+	save_data(true);
 	room_goto(room_menu);
+	
 }
 
 if other.uiControlName == "savegame" {
-	if room == room_interior or room == room_cargo or room == room_cockpit {
-		META[? "room"] = "room_ship";
-	} else {
-		META[? "room"] = room_get_name(room);	
-	}
+
 	C.showMenu = false;
-	save_data();
+	save_data(true);
 	update_textbox("Game Saved Successfully!");
+	
 }

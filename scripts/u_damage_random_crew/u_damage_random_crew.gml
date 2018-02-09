@@ -7,7 +7,7 @@ dmgCrew = CREW[? dmgCrew];
 var meds = ITEMS[? "medkits"];
 meds = int64(meds);
 
-meds -= round(argument0*.5);
+meds -= round(argument0*.25);
 ITEMS[? "medkits"] = meds;
 
 if meds < 0 {

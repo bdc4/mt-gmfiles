@@ -26,7 +26,7 @@ if e <= 1 {
 } else if e <= 2 {
 	
 	if attn != true {
-		title = "ATTENTION";
+		//title = "ATTENTION";
 		attn = true;
 		PAUSED = true;
 		eve = "Abandoned Ship";
