@@ -18,7 +18,7 @@ if other.uiControlName == "loadgame" {
 }
 
 if other.uiControlName == "quitgame" {
-	if file_exists("savedata.ini") save_data(false);
+	//if file_exists("savedata.ini") save_data(false);
 	game_end();	
 }
 

@@ -45,7 +45,7 @@ randomize();
 	META[? "TD_posY"] = "None";
 	META[? "day"] = 0;
 	META[? "attn"] = false;
-	META[? "eve"] = undefined;
+	META[? "eve"] = "None";
 
 /* ---- END META DATA ---- */
 

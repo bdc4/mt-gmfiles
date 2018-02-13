@@ -7,12 +7,12 @@ if argument0 {
 	} else {
 		META[? "room"] = room_get_name(room);	
 	}
-}
 
-if instance_exists(obj_ship_controller) {
-	with obj_ship_controller {
-		META[? "attn"] = attn;
-		META[? "eve"] = eve;
+	if instance_exists(obj_ship_controller) {
+		with obj_ship_controller {
+			META[? "attn"] = attn;
+			META[? "eve"] = eve;
+		}
 	}
 }
 

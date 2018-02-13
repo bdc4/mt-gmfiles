@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if room == room_menu exit;
+
 if room == room_interior {
 	//Draw Background
 	draw_sprite(bg,0,0,0);
