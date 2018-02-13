@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+if room == room_cockpit exit;
+
 _portrait = "spr_portraitNone";
 if _sCrew.spr != undefined {
 	_portrait = sprite_get_name(_sCrew.spr);

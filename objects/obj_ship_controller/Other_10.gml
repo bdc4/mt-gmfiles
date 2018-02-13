@@ -21,6 +21,10 @@ if other.uiControlName == "onscreen" {
 		case "Abandoned Ship":
 			u_eve_abandoned_ship();
 			break;
+		default:
+			title = "Oops! ";
+			msg = "Something went wrong!";
+			attn = false;
 			
 	}
 	

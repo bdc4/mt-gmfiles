@@ -2343,6 +2343,14 @@
             }
         },
         {
+            "Key": "df5f3b3b-9a53-4c21-a7ad-d2a0c437a967",
+            "Value": {
+                "id": "fcbf1d9b-262b-4093-8274-03c9ed4cc3fc",
+                "resourcePath": "sounds\\msc_intro_start\\msc_intro_start.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "e06f764a-5301-4ae4-84ed-4bf0c93c5065",
             "Value": {
                 "id": "ee2b5bc1-660f-4451-a07b-ef82a898e271",

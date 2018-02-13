@@ -161,7 +161,7 @@ randomize();
 	for (var i=0; i<array_length_1d(SYSNAMES); i++) {
 		system = ds_map_create();
 		system[? "name"] = SYSNAMES[i];
-		system[? "hp"] = 3;
+		system[? "hp"] = 5;
 		system[? "bg"] = sysBackgrounds[i];
 		SYSTEMS[? i] = system;
 	}

@@ -1,4 +1,4 @@
-audio_play_sound(msc_mother,0,true);
+
 draw_set_font(f_normal);
 gesture_double_tap_time(.06);
 //DEBUG vars

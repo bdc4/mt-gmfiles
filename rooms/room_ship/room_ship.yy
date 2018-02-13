@@ -2,7 +2,7 @@
 {
     "name": "room_ship",
     "id": "702dce04-dcc2-49f5-9392-204fb5d8025a",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
@@ -102,7 +102,7 @@
         "Height": 768,
         "inheritRoomSettings": false,
         "modelName": "GMRoomSettings",
-        "persistent": true,
+        "persistent": false,
         "mvc": "1.0",
         "Width": 1024
     },

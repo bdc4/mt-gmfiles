@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if room == room_prelude {
 draw_sprite_general(spr_stars,irandom_range(0,7), 0, 0, sprite_get_width(spr_stars), sprite_get_height(spr_stars), 
-0, -room_height*2/3, 6, 3, 0, c_white, c_white, c_black, c_black, 1);
+0, -room_height*2/3, 6, 3, 0, c_white, c_white, c_black, c_black, a/(aMax*.5)-.75);
 }
 
 draw_set_alpha(fadeAlpha);

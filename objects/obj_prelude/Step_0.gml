@@ -5,12 +5,18 @@ var yy = camera_get_view_y(camera);
 
 if keyboard_check_pressed(vk_anykey) || mouse_check_button(mb_any) {
 	fadeWhite = true;	
+	audio_sound_gain(msc_intro_start, 0, 600);
 }
+
 
 if a >= aMax {
 	if !fadeWhite {
-		aFade += .02;
-		aFade = clamp(aFade, 0, 1);
+		if a <= aMax/1.25 {
+			aFade -= .02;
+		} else {
+			aFade += .02;
+		}
+		aFade = clamp(aFade, -2.5, 1);
 	}
 	a--;
 	exit;

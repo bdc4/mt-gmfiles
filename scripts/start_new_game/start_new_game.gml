@@ -2,6 +2,8 @@
 		
 if file_exists("savedata.ini")
 	file_delete("savedata.ini")
+	
+if instance_exists(obj_ship_controller) instance_destroy(obj_ship_controller);
 
 if instance_exists(C) {
 	with C {
