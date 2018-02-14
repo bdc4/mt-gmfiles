@@ -6,8 +6,13 @@ var title = "";
 if !PAUSED title="CREW";
 else title = "PAUSED";
 
+if !PAUSED
+	draw_set_alpha(.75);
+else
+	draw_set_alpha(1);
 draw_set_color(c_black);
 draw_rectangle(32,32,room_width-32,room_height-32,false);
+draw_set_alpha(1);
 draw_set_color(c_white);
 draw_rectangle(32,32,room_width-32,room_height-32,true);
 

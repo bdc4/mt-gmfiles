@@ -54,7 +54,7 @@ draw_text_custom(44,6,dayStr,1);
 if !instance_exists(obj_pauseBtn)
 	instance_create_depth(32,48,depth-100,obj_pauseBtn);
 
-if C.showMenu and room != room_mother_lobby {
+if C.showMenu {
 	draw_set_color(c_black);
 	draw_rectangle(room_width-32,84,room_width-225,32,false);
 	draw_set_font(f_normal);
@@ -72,6 +72,9 @@ if C.showMenu and room != room_mother_lobby {
 	draw_line(120,room_height-72,820,room_height-72);
 	draw_set_color(c_lime);
 	draw_sprite(spr_earthIcon,0,120,room_height-72);
+	draw_circle(820*1/3,room_height-72,12,false);
+	draw_circle(820*1/2,room_height-72,12,false);
+	draw_circle(820*2/3,room_height-72,12,false);
 	draw_sprite(spr_marsIcon,0,820,room_height-72);
 	draw_sprite_ext(SHIP[? "spr"],0,120+travelDist/marsDist*700,room_height-72,.5,.5,-90,c_white,1);
 	
