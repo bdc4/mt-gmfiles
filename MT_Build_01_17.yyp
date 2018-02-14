@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "07931e4c-a333-4ee0-8606-a1cb14df5325",
+            "Value": {
+                "id": "0384e50d-4743-4108-9591-f6573503ced4",
+                "resourcePath": "scripts\\u_eve_space_station\\u_eve_space_station.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "07daab7a-a43b-43be-85df-e830c01ce31b",
             "Value": {
                 "id": "d0c5166e-2ad5-49e8-9e2a-3b3e58489ee3",
@@ -207,6 +215,14 @@
             }
         },
         {
+            "Key": "11dfaa4b-8809-45f7-97e3-d010fd9df54e",
+            "Value": {
+                "id": "0a28ad96-16da-4449-aa0a-61d2a426ae33",
+                "resourcePath": "sprites\\spr_earthIcon\\spr_earthIcon.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "122b2a16-885c-4ef8-b0db-b8806d9bf95a",
             "Value": {
                 "id": "505e271a-9c04-4639-869a-7d8b09c41ae4",
@@ -219,6 +235,14 @@
             "Value": {
                 "id": "64fbffe3-6462-4d4d-acac-6d60c85fd48b",
                 "resourcePath": "sprites\\spr_partsBox\\spr_partsBox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1422bceb-d491-4b75-82bf-42017c1c799b",
+            "Value": {
+                "id": "20cf8593-bddf-4425-8652-6a931a8c1513",
+                "resourcePath": "sprites\\spr_marsIcon\\spr_marsIcon.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -388,6 +412,14 @@
                 "id": "01535963-31e0-498d-a2c7-635b2456985e",
                 "resourcePath": "views\\212ec23e-8c74-4fe1-a02b-ce0089b71a44.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "21c33c53-679e-4bc8-9637-be9fc1751760",
+            "Value": {
+                "id": "fc4dd581-9cff-496f-9855-272866ab9b37",
+                "resourcePath": "scripts\\u_health_check\\u_health_check.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2740,6 +2772,7 @@
         "d856081e-df57-4cce-8aa4-78a7f27f3544",
         "1df768dd-a0b6-4742-b1e0-6ca815e053c2",
         "a6a51ebc-745f-4607-9ddf-44a5169a1896",
+        "07931e4c-a333-4ee0-8606-a1cb14df5325",
         "439cf326-c94c-4d72-a125-1f2e260e4128",
         "cc158a35-1cd1-41d8-8308-2573478fe2f6",
         "261d17df-db6f-43ea-9010-c82394980e67",
@@ -2782,7 +2815,8 @@
         "af9a6ceb-cebb-4841-9e60-443f7417635c",
         "7fcb431b-dd04-4e42-977d-52b636fc4a68",
         "ac0df619-c40f-4024-b7ea-37e8fa29fe31",
-        "863f891c-40fb-409a-b368-7916038f6064"
+        "863f891c-40fb-409a-b368-7916038f6064",
+        "21c33c53-679e-4bc8-9637-be9fc1751760"
     ],
     "tutorial": ""
 }

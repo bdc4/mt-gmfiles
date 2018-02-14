@@ -8,6 +8,7 @@ for (var i = 0; i < 4; ++i) {
 	with _crewDisplay[i] {
 		var c = obj_crewDisplay._CREW;
 		hp = c[? "hp"];
+		hpMax = c[? "hpMax"];
 		morale = c[? "morale"];
 		spr = c[? "portrait"];
 		ID = "CREWCard";

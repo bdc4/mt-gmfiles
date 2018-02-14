@@ -53,3 +53,26 @@ draw_text_custom(44,6,dayStr,1);
 
 if !instance_exists(obj_pauseBtn)
 	instance_create_depth(32,48,depth-100,obj_pauseBtn);
+
+if C.showMenu and room != room_mother_lobby {
+	draw_set_color(c_black);
+	draw_rectangle(room_width-32,84,room_width-225,32,false);
+	draw_set_font(f_normal);
+	draw_set_halign(fa_left);
+	draw_set_color(c_lime);
+	draw_rectangle(room_width-32,84,room_width-225,32,true);
+	draw_text_custom(44,6,dayStr,1);
+	
+	var travelDist = (int64(META[? "day"])*dayLength+t)*500;
+	var distString = int64(marsDist-travelDist);
+	distString = clamp(distString, 0, marsDist);
+	draw_text(room_width-225+12,32, "Distance to Mars:\n"+string(distString)+" km" );
+	
+	draw_set_color(c_red);
+	draw_line(120,room_height-72,820,room_height-72);
+	draw_set_color(c_lime);
+	draw_sprite(spr_earthIcon,0,120,room_height-72);
+	draw_sprite(spr_marsIcon,0,820,room_height-72);
+	draw_sprite_ext(SHIP[? "spr"],0,120+travelDist/marsDist*700,room_height-72,.5,.5,-90,c_white,1);
+	
+}

@@ -31,6 +31,8 @@ if eveNum <= 1 {
 	title = "[c:red]Permenant Minor Injury[c:white]: ";
 	msg = _crew+" has developed minor radiation sickness. As a result, they will suffer a permenant 10% decrease to their health."
 	
+	c_map[? "hpMax"] -= 10;
+	
 }
 var _img_index = 0;
 var _portrait = search_map_for_matching(CREW,"name",_crew);

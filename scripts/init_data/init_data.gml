@@ -46,6 +46,7 @@ randomize();
 	META[? "day"] = 0;
 	META[? "attn"] = false;
 	META[? "eve"] = "None";
+	META[? "stationCurrent"] = 0;
 
 /* ---- END META DATA ---- */
 
@@ -129,6 +130,7 @@ randomize();
 	for (var i=0; i<4; i++) {
 		char = ds_map_create()
 		char[? "hp"] = 100;
+		char[? "hpMax"] = 100;
 		char[? "morale"] = 100;
 		char[? "portrait"] = spr_portraitNone;
 		char[? "img_index"] = 0;
@@ -205,7 +207,7 @@ randomize();
 //
 
 	STATIONS = ds_map_create();
-	stationNames = ["Mother Station", "Station 1", "Station 2", "Station 3"];
+	stationNames = ["Mother Station", "Bravo Station", "Charlie Station", "Delta Station"];
 
 	for (var i=0; i<array_length_1d(stationNames); i++) {
 		station = ds_map_create();

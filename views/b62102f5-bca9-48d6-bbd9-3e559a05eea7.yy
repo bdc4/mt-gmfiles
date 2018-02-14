@@ -7,7 +7,8 @@
         "84a6ebd6-3939-4b05-9ca7-9a83c1c76501",
         "d856081e-df57-4cce-8aa4-78a7f27f3544",
         "1df768dd-a0b6-4742-b1e0-6ca815e053c2",
-        "a6a51ebc-745f-4607-9ddf-44a5169a1896"
+        "a6a51ebc-745f-4607-9ddf-44a5169a1896",
+        "07931e4c-a333-4ee0-8606-a1cb14df5325"
     ],
     "filterType": "GMScript",
     "folderName": "In-Game Event Scripts",

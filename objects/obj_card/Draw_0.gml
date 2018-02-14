@@ -46,7 +46,7 @@ if (C.showMenu && ID == "CREWCard" && !instance_exists(obj_cantina_controller)) 
 	draw_set_halign(fa_center);
 	draw_set_font(f_small);
 	draw_text(x,y+32*2,string(name));
-	draw_text(x,y+32*2.75,"Health: "+string(hp)+"%");
+	draw_text(x,y+32*2.75,"Health: "+string(hp)+"/"+string(hpMax));
 	draw_text(x,y+32*3.5,"Morale: "+string(morale)+"%");
 	draw_text(x,y+32*4.25,"Assigned to:\n"+string(assigned));
 	draw_set_font(f_normal);

@@ -9,12 +9,38 @@ if t >= dayLength {
 	day += 1;
 	META[? "day"] = day;
 	
-	var num = irandom_range(1,18);
+	var rations = int64(ITEMS[? "rations"])
+	rations -= ds_map_size(CREW);
+	ITEMS[? "rations"] = rations;
 	
+	u_health_check();
+	
+	var num = irandom_range(1,18);
 	
 	img = spr_empty;
 	title = "";
 	msg = "Nothing to report today.";
+	
+	switch(day) {
+		case 30: 
+			u_eve_space_station(1);
+			PAUSED = true;
+			t=0;
+			exit;
+			break;
+		case 60: 
+			u_eve_space_station(2);
+			PAUSED = true;
+			t=0;
+			exit;
+			break;
+		case 90: 
+			u_eve_space_station(3);
+			PAUSED = true;
+			t=0;
+			exit;
+			break;	
+	}
 	
 	//Debugging:
 	//Uncomment below line for no uneventful days

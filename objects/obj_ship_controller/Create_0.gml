@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+marsDist = 54.6*1000000;
 bg = spr_empty;
 name = "None";
 t = 0;
